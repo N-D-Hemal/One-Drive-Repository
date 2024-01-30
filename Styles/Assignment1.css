@@ -35,12 +35,26 @@ body {
     padding: 10px 20px;
 }
 
+/* Header related style */
+.header{ background-color: #FFF8F3;}
+.bannar{padding: 30px 30px 30px 200px;
+        display: flex;
+        align-items:center;
+    }
+
+.bannar .bannarpic{
+    width:500px;
+}
+
+
+
 
 /* Nav related styles */
 nav {
     display: flex;
     justify-content:space-around;
     align-items: center;
+    margin: 0 300px;
 }
 
 .nav-title {
