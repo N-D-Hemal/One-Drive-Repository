@@ -28,7 +28,8 @@ body {
 .buttoncolor {
     border-radius: 5px;
     background: #bb6477;
-    border: 10;
+    border: 500;
+    margin: 1cm;
     font-size: 20px;
     font-weight: 800;
     color: white;
@@ -36,23 +37,43 @@ body {
 }
 
 /* Header related style */
-.header{ background-color: #FFF8F3;}
-.bannar{padding: 30px 30px 30px 200px;
-        display: flex;
-        align-items:center;
-    }
-
-.bannar .bannarpic{
-    width:500px;
+.header {
+    background-color: #e0d8df;
+    background-image: url(../images/nature.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
+.bannar {
+    padding: 30px 30px 30px 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.bannarpic {
+    align-items: center;
+    margin-right: 800px;
+}
+.bannar .bannarpic {
+    width: 300px;
+}
+.bannargreeting{
+    font-size: 70px;
+    color: #FD6E0A; 
+    margin-bottom: 0;
+}
+
+.bannartitle{
+    font-size: 50px;
+    color: darkmagenta;
+}
 
 
 
 /* Nav related styles */
 nav {
     display: flex;
-    justify-content:space-around;
+    justify-content: space-around;
     align-items: center;
     margin: 0 300px;
 }
