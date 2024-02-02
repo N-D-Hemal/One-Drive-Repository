@@ -98,3 +98,24 @@ li a {
     text-decoration: none;
     color: darkorange;
 }
+
+/* main section styles */
+
+
+/* about section styles */
+.about{
+    padding: 150px;
+    background-color: rgb(167, 189, 182);
+    margin: 100px 200px;
+}
+
+.sectiontitle{
+    color: #FD6E0A;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 800;
+}
+.aboutpara{
+    text-align: center;
+    font-size: 30px;
+}
