@@ -130,3 +130,23 @@ main{
 .about-info{
     text-align: center;
 }
+/* section 2 styles */
+#sec2desrip{
+    font-size: 30px;
+    text-align: center;
+    padding: 20px 100px;
+}
+.skill-contain{
+    display: flex;
+    font-size: 20px;
+    justify-content: space-around;
+    gap: 20px;
+}
+.skill{
+    padding: 20px;
+    border-radius: 10px;
+    background: #f7f5f5;
+    box-shadow: 100px;
+ 
+
+}
