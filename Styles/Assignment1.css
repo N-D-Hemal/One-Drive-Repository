@@ -100,13 +100,16 @@ li a {
 }
 
 /* main section styles */
-
+main{
+    max-width: 1150px;
+    margin: 0 auto;
+}
 
 /* about section styles */
 .about{
-    padding: 150px;
+    padding: 50px;
     background-color: rgb(167, 189, 182);
-    margin: 100px 200px;
+    margin: 100px;
 }
 
 .sectiontitle{
@@ -118,4 +121,12 @@ li a {
 .aboutpara{
     text-align: center;
     font-size: 30px;
+}
+.about-info-container{
+    display: flex;
+    font-size: 20px;
+    justify-content: space-around;
+}
+.about-info{
+    text-align: center;
 }
