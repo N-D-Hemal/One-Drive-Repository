@@ -147,6 +147,21 @@ main{
     border-radius: 10px;
     background: #f7f5f5;
     box-shadow: 100px;
- 
+}
+
+/* Resume related styles */
+
+
+.resume-contain{
+    display: flex;
+
+}
+
+.resume-colum{
+    padding: 80px;
+}
+.dow-button{
+    text-align: center;
+
 
 }
