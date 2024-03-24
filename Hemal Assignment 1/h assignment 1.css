@@ -1,0 +1,33 @@
+
+body {
+    font-family: 'Inter', sans-serif;
+    font-family: 'Merriweather', serif;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+
+
+
+.hfirst {
+
+    background-position: center;
+    background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url(resources/Banner\ Image.png);
+    width: 1320px;
+    height: 600px;
+    border: 16px;
+    margin: 0 auto;
+    margin-top: 50px;
+    border-radius: 16px;
+    background-repeat: no-repeat;
+}
+
+.htext {
+    /* margin-top: 177px; */
+    position: absolute;
+    top: 0 px;
+    left: 50%;
+    transform: translate(-50%,
+            0%);
+
+}
