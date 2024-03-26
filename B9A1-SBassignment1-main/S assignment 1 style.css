@@ -562,10 +562,14 @@ max-width: 550px;
 
 /* footer design */
 .footer{
-    width: 100%;
+    width: 1320px;
     height: 609px;
     background: #070211;
-    margin-top: 120px;
+    background-position: center;
+    
+    margin: auto;
+    margin-top: 50px;
+
 }
 
 .footertext{

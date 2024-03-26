@@ -398,7 +398,7 @@ margin-top: 110px;
     margin: 24px auto;
 }
 
-.portF_img:hover img{
+.imgflex:hover{
     transform: scale(1.5) rotate(360deg);
     transition: 1s;
 }
@@ -470,4 +470,108 @@ margin-top: 110px;
     font-weight: 600;
     line-height: normal;
     text-transform: capitalize;
+}
+/* footer design */
+.footer{
+    width: 1320px;
+    height: 609px;
+    background: #070211;
+    background-position: center;
+    
+    margin: auto;
+    margin-top: 50px;
+
+}
+
+.footertext{
+    display: flex;
+    /* padding: 160px 270px 0 140px; */
+    padding: 100px 140px 0 140px;;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px ;
+
+}
+
+.footertext p{
+    color: #FFF;
+    width: 375px;
+    height: 80px;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px;
+}
+
+.footercontact{
+    
+}
+.footercontact a{
+    color: #FFF;
+    text-decoration: none;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px; 
+    margin-left: 16px;
+    
+      
+}
+.footercontact img{
+    width: 24px;
+    height: 24px;
+}
+
+.footer hr{
+    background: rgba(255, 255, 255, 0.733);
+
+
+}
+/* footer media */
+
+.footermedia{
+    display: flex;
+    padding: 48px 630px 0 630px;
+    justify-content: space-between;
+    margin:auto;
+    align-items: center;
+}
+.footermedia img{
+    margin-right: 14px;
+}
+.media:hover img{
+    opacity: 50%;
+}
+
+/* rights */
+
+.footerright{
+    display: flex;
+    padding: 100px 140px 0 140px;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px ;
+}
+.footerright p{
+    
+    color: #FFF;
+
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.footerright a{
+    color: #FFF;
+    text-decoration: none;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+
 }
