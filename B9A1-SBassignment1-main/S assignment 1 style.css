@@ -312,8 +312,6 @@ max-width: 550px;
 .sale{
     max-width: 1320px;
     height: 987px;
-  
-   
     align-content: center;
     margin: 120px auto 0 auto;
 }
@@ -389,7 +387,6 @@ max-width: 550px;
     height: 433px;
     /* display: flex; */
     align-items: right;
-    
     position: relative;
      
 }
@@ -475,7 +472,6 @@ max-width: 550px;
 .imgflex{
     
     display: flex;
-    
     width: 100%;
     height: auto;
 }
